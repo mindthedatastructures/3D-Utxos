@@ -1,0 +1,33 @@
+{
+	"commands":{
+		"address" : "127.0.0.1",
+		"port" : 5566
+	},
+	"get_info":{
+		"address" : "127.0.0.1",
+		"port" : 5567
+	},
+	"times":{
+		"camera_move_to_blockchain" : 1,
+		"enter_tx_queue" : 3,
+		"down_one_level_in_queue": 2,
+		"queue_to_validator": 1,
+		"from_validator_to_preparing_block": 3,
+		"validate": 5,
+		"add_block_to_chain":{
+			"camera_move_to_blockchain" : 2,
+			"move_tx_from_prep_to_block":3,
+			"wait_after_move_tx_from_prep_to_block":3,
+			"leave_space_for_new_block":3,
+			"move_block_to_blockchain": 3,
+			"camera_move_to_limbo": 3,
+			"wait_after_camera_move_":1,
+			"send_old_rx_to_limbo": 3,
+			"relocate_new_alive_rx": 3,
+			"wait_after_relocate": 1,
+			"send_old_rx_to_cementery": 3
+		}
+	},
+	"living_utxos_per_line" : 15
+
+}
