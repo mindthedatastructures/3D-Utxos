@@ -20,7 +20,9 @@ pip3 install pygame
 
 # Usage
 Check the file config.json and see if the values are good for your setup.
+
 Run `python3 utxos.py` to run the 3D model
+
 Run `python3 command_ui.py` in another terminal to the remote control.
 
 In the 3D view use WASDZX+arrows for navigation. Also try with Space bar and Shift+Space bar
